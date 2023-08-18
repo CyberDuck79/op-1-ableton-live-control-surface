@@ -107,16 +107,16 @@ class OP1ModeSelectorComponent(ModeSelectorComponent):
         # encoder for transport control - leave it empty for now
         self._encoder_1 = EncoderElement(MIDI_CC_TYPE, consts.CHANNEL,
                                          consts.OP1_ENCODER_1,
-                                         Live.MidiMap.MapMode.relative_two_compliment)
+                                         Live.MidiMap.MapMode.absolute)
         self._encoder_2 = EncoderElement(MIDI_CC_TYPE, consts.CHANNEL,
                                          consts.OP1_ENCODER_2,
-                                         Live.MidiMap.MapMode.relative_two_compliment)
+                                         Live.MidiMap.MapMode.absolute)
         self._encoder_3 = EncoderElement(MIDI_CC_TYPE, consts.CHANNEL,
                                          consts.OP1_ENCODER_3,
-                                         Live.MidiMap.MapMode.relative_two_compliment)
+                                         Live.MidiMap.MapMode.absolute)
         self._encoder_4 = EncoderElement(MIDI_CC_TYPE, consts.CHANNEL,
                                          consts.OP1_ENCODER_4,
-                                         Live.MidiMap.MapMode.relative_two_compliment)
+                                         Live.MidiMap.MapMode.absolute)
 # setting misc listeners
 
         self._encoder_1_push = ButtonElement(True, MIDI_CC_TYPE,

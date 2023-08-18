@@ -17,7 +17,10 @@ following webpage: http://www.gnu.org/licenses/gpl-2.0.html
 
 ===
 
-LAST UPDATE - 22 Mar 2021
+LAST UPDATE - 28 August 2023
+- fixed encoder for new firmware
+
+22 Mar 2021
 - port to Ableton Live 11 (Python3)
 
 28 Jul 2017
